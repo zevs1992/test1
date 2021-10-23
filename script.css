@@ -1,0 +1,73 @@
+
+
+body{
+    /* background: cadetblue;
+    padding: 50px; */
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.block{
+    width: 100px;
+    /* min-width: 200px; */
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.block_left {
+    width: 100px;
+    /* min-width: 200px; */
+    height: 100px;
+    background: red;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.block_top {
+    width: 100px;
+    /* min-width: 200px; */
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1000;
+}
+
+.block_reide {
+    width: 100px;
+    /* min-width: 200px; */
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.block1{
+    width: 100px;
+    /* min-width: 200px; */
+    height: 100px;
+    background: rgb(22, 235, 15);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 100;
+}
+
+.block2 {
+    width: 60px;
+    /* min-width: 200px; */
+    height: 60px;
+    background: rgb(197, 236, 24 );
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 200;
+
+}
